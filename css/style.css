@@ -1,0 +1,22 @@
+nav div ul li{
+    margin-top: 5px;
+    margin-left: 30px;
+    font-size: 1.3rem;
+}
+ i:hover{
+    transform: scale(1.2);
+    text-shadow: 1px 1px 3px rgb(179, 179, 179);
+    cursor: pointer;
+    color: rgb(46, 46, 46);
+}
+input[type=text]{
+    width: 600px;
+    color: -internal-light-dark(rgb(0, 0, 0), white);
+    border: 1px solid #dcdcdc;
+    border-radius: 5px;
+    font-size: 17px;
+    box-shadow: 1px 1px 8px 1px #dcdcdc;
+}
+input[type=text]:focus-within{
+    outline: none;
+}
